@@ -15,6 +15,10 @@ button {
     outline: none!important;
 }
 
+a:focus{
+    border:solid black 1px;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
