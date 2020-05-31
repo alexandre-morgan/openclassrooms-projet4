@@ -8,8 +8,8 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="all">
 	<link rel="stylesheet" type="text/css" href="style.css" media="all">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" media="all">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css" media="all">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" media="all" defer>
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css" media="all" defer>
 
     
 
@@ -43,10 +43,13 @@
 						<img src="img/la-chouette-agence.png" alt="Logo la chouette Agence web design Lyon" />
 					</a>
 					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span class="sr-only" role="button">Toggle navigation</span><i class="icon-bar"></i><i class="icon-bar" role="menu"></i><i class="icon-bar" role="menu"></i>
+						<span class="sr-only" role="button">Toggle navigation</span>
+						<span class="icon-bar" role="menu"></span>
+						<span class="icon-bar" role="menu"></span>
+						<span class="icon-bar" role="menu"></span>
 					</button>
 				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" role="menu">
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" role="navigation">
 					<ul class="site-navigation nav navbar-nav">
 						<li>
 							<a href="index.html" title="Accueil">Accueil</a>
@@ -95,7 +98,7 @@
 				<section class="row voffset-lg med-width-whitespace">
 					<section class="col-sm-4">
 						<figure class="text-center">
-							<i class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></i>
+							<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" role="doc-example"></span>
 							<figcaption>
 								<h3 class="mg-md text-center">
 									Web design
@@ -108,7 +111,7 @@
 					</section>
 					<section class="col-sm-4">
 						<figure class="text-center">
-							<i class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></i>
+							<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" role="doc-example"></span>
 							<figcaption>
 								<h3 class="mg-md text-center">
 									&nbsp;Stratégie
@@ -121,7 +124,7 @@
 					</section>
 					<section class="col-sm-4">
 						<figure class="text-center">
-							<i class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></i>
+							<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" role="doc-example"></span>
 							<figcaption>
 								<h3 class="mg-md text-center">
 									Illustrations
@@ -265,22 +268,22 @@
 					<section class="row row-no-gutters social">
 						<section class="col-sm-3">
 							<div class="text-center" role="link">
-								<a class="social" href="index.html"><i class="fa fa-twitter icon-md" alt="logo twitter"></i></a>
+								<a class="social" href="index.html"><span class="fa fa-twitter icon-md" alt="logo twitter"></span></a>
 							</div>
 						</section>
 						<section class="col-sm-3">
 							<div class="text-center" role="link">
-								<a class="social" href="index.html"><i class="fa fa-facebook icon-md" alt="logo facebook"></i></a>
+								<a class="social" href="index.html"><span class="fa fa-facebook icon-md" alt="logo facebook"></span></a>
 							</div>
 						</section>
 						<section class="col-sm-3">
 							<div class="text-center" role="link">
-								<a class="social" href="index.html"><i class="fa fa-dribbble icon-md" alt="logo dribbble"></i></a>
+								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md" alt="logo dribbble"></span></a>
 							</div>
 						</section>
 						<section class="col-sm-3">
 							<div class="text-center" role="link">
-								<a class="social" href="index.html"><i class="fa fa-instagram icon-md" alt="logo instagram"></i></a>
+								<a class="social" href="index.html"><span class="fa fa-instagram icon-md" alt="logo instagram"></span></a>
 							</div>
 						</section>
 					</section>
@@ -335,7 +338,7 @@
 
 </body>
 
-<script src="./js/jquery-2.1.0.js" defer></script>
+<script src="./js/jquery-2.1.0.js"></script>
 <script src="./js/bootstrap.js" defer></script>
 <script src="./js/blocs.js" defer></script>
 <script src="./js/jquery.touchSwipe.js" defer></script>
